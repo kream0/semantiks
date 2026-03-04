@@ -1,0 +1,52 @@
+# dependencies (bun install)
+node_modules
+
+# output
+out
+dist
+*.tgz
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
+
+# Python virtual environment
+.venv/
+
+# Large embedding/ranking data files (regenerate with scripts/)
+data/camembert_embeddings.bin
+data/camembert_embeddings.tsv
+data/precomputed_rankings.bin
+data/fauconnier_500.vec
+data/french_embeddings.tsv
+data/french_vectors_50k.vec
+data/cc.fr.300.vec.gz
+
+# Runtime cache (SQLite LLM cache)
+data/llm_cache.sqlite
+
+# Windows artifacts
+nul
